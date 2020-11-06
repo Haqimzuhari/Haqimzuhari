@@ -1,0 +1,67 @@
+FRESH INSTALL LINUX MINT (UBUNTU DISTRO)
+
+Install Tasksel Linux Mint Community (https://community.linuxmint.com)
+
+
+Install LAMP Stack from Tasksel
+	i	Open Terminal
+	ii	Run: sudo tasksel
+	iii	Find LAMP Server using arrow key
+	iv	Select using space bar
+	v	Press Tab to escape and click OK by press Enter
+
+
+Change ownership of File System /var/www/html/
+	i	Go to File System /var/www/html/
+	ii	Open Terminal on current directory
+	iii	Type: sudo chown -R [username] ./
+
+
+Create phpinfo.php file
+	i	Go to File System /var/www/html/
+	ii	Create index.php file and type: phpinfo() and save
+	iii	Open browser: localhost/index.php
+	iv	Take note directory for php.ini file and extension_dir location
+
+
+Install g++ from Synaptic
+
+
+Install Microsoft Drivers for PHP for SQL Server
+	i	Search on Google: sqlsrv php ubuntu
+	ii	Find installation on Linux(Ubuntu) - Take note ODBC driver
+	iii	Follow the instruction on-by-on every step except install apache
+    iv  Restart Apache: sudo service apache2 restart
+
+
+Update system using Update Manager
+    i   Terminal: sudo apt update && sudo apt upgrade
+
+
+Internet speed
+    i   Network setting > setting icon on selected network > IPv4 > DNS > toggle off automatic
+    ii  Set 8.8.8.8 and add one more 8.8.4.4
+    iii Apply and restart wifi
+
+
+Mozilla Speed
+    i   Url: about:config
+    ii  Enable : 
+            layers.acceleration.force-enable
+            gfx.webrender.all
+    iii Restart Mozilla
+	
+
+Install Anydesk from Software Manager
+
+Install Forticlient from Official website .deb file
+
+Install Remmina for Remote Desktop(RDP)
+
+Install Composer - follow steps from official website
+
+Install Laravel and add Laravel to path
+	i	nano ~/.bashrc
+	ii	at the end of the file, add: export PATH="root-dir-of-the-tools":$PATH
+	iii	ctrl+x to exit and press y then enter to save file
+	iv	source ~/.bashrc
