@@ -65,3 +65,9 @@ Install Laravel and add Laravel to path
 	ii	at the end of the file, add: export PATH="root-dir-of-the-tools":$PATH
 	iii	ctrl+x to exit and press y then enter to save file
 	iv	source ~/.bashrc
+
+
+Install VSCode
+    Apparently, multi cursor function from vscode alt+click had clashed with linux mint OS so in order to fix,
+    run this in terminal
+        gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier "<Super>"
