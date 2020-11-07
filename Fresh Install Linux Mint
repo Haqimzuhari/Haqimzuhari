@@ -71,3 +71,7 @@ Install VSCode
     Apparently, multi cursor function from vscode alt+click had clashed with linux mint OS so in order to fix,
     run this in terminal
         gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier "<Super>"
+        
+        
+Scroll issue at Figma.com at Mozilla Firefox browser on Linux OS (any distros)
+	Install Mozilla Firefox add-ons https://addons.mozilla.org/en-US/firefox/addon/scroll-figma/
