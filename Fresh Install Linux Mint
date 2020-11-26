@@ -11,10 +11,9 @@ Install LAMP Stack from Tasksel
 	v	Press Tab to escape and click OK by press Enter
 
 
-Change ownership of File System /var/www/html/
-	i	Go to File System /var/www/html/
-	ii	Open Terminal on current directory
-	iii	Type: sudo chown -R [username] ./
+Change ownership of File System /var/www/
+	i	Go to Terminal
+	ii	Run sudo chown -R $USER:$USER /var/www
 
 
 Create phpinfo.php file
