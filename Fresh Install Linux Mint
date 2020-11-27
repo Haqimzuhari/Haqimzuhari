@@ -74,3 +74,11 @@ Install VSCode
         
 Scroll issue at Figma.com at Mozilla Firefox browser on Linux OS (any distros)
 	Install Mozilla Firefox add-ons https://addons.mozilla.org/en-US/firefox/addon/scroll-figma/
+
+Install Ngrok
+	i	Download from Official website
+	ii	Login using github
+	iii	Follow installation instruction
+	iv	Cut ngrok executable file
+	v	go to /usr/local/bin and open as root then paste cutted ngrok
+	vi	open terminal and check run ngrok -v to check ngrok can be run globally
