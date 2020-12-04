@@ -82,3 +82,11 @@ Install Ngrok
 	iv	Cut ngrok executable file
 	v	go to /usr/local/bin and open as root then paste cutted ngrok
 	vi	open terminal and check run ngrok -v to check ngrok can be run globally
+	
+	
+KDE Neon
+
+Install Mysql
+
+sudo rm /etc/apt/preferences.d/50-neon-mariadb   
+sudo apt install mysql-server
