@@ -60,10 +60,10 @@ Install Remmina for Remote Desktop(RDP)
 Install Composer - follow steps from official website
 
 Install Laravel and add Laravel to path
-	i	nano ~/.bashrc
-	ii	at the end of the file, add: export "PATH=$HOME/.config/composer/vendor/bin:$PATH"
-	iii	ctrl+x to exit and press y then enter to save file
-	iv	source ~/.bashrc
+nano ~/.bashrc
+export "PATH=$HOME/.config/composer/vendor/bin:$PATH"
+ctrl+x to exit and press y then enter to save file
+source ~/.bashrc
 
 
 Install VSCode
