@@ -83,6 +83,8 @@ Install Ngrok
 	iv	Cut ngrok executable file
 	v	go to /usr/local/bin and open as root then paste cutted ngrok
 	vi	open terminal and check run ngrok -v to check ngrok can be run globally
+echo 'export PATH="path-to-ngrok-folder"' >> ~/.bashrc
+source ~/.bashrc
 	
 	
 KDE Neon
