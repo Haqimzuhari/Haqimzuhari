@@ -1,0 +1,95 @@
+FRESH INSTALL LINUX MINT (UBUNTU DISTRO)
+
+Install Tasksel Linux Mint Community (https://community.linuxmint.com)
+
+
+Install LAMP Stack from Tasksel
+	i	Open Terminal
+	ii	Run: sudo tasksel
+	iii	Find LAMP Server using arrow key
+	iv	Select using space bar
+	v	Press Tab to escape and click OK by press Enter
+
+
+Change ownership of File System /var/www/
+	i	Go to Terminal
+	ii	Run sudo chown -R $USER:$USER /var/www
+
+
+Create phpinfo.php file
+	i	Go to File System /var/www/html/
+	ii	Create index.php file and type: phpinfo() and save
+	iii	Open browser: localhost/index.php
+	iv	Take note directory for php.ini file and extension_dir location
+
+
+Install g++ from Synaptic
+
+
+Install Microsoft Drivers for PHP for SQL Server
+	i	Search on Google: sqlsrv php ubuntu
+	ii	Find installation on Linux(Ubuntu) - Take note ODBC driver
+	iii	Follow the instruction on-by-on every step except install apache
+    iv  Restart Apache: sudo service apache2 restart
+
+
+Update system using Update Manager
+    i   Terminal: sudo apt update && sudo apt upgrade
+
+
+Internet speed
+    i   Network setting > setting icon on selected network > IPv4 > DNS > toggle off automatic
+    ii  Set 8.8.8.8 and add one more 8.8.4.4
+    iii Apply and restart wifi
+
+
+Mozilla Speed
+    i   Url: about:config
+    ii  Enable : 
+            layers.acceleration.force-enable
+            gfx.webrender.all
+    iii Restart Mozilla
+	
+
+Install Anydesk from Software Manager
+
+Install Forticlient from Official website .deb file
+
+Install Remmina for Remote Desktop(RDP)
+
+Install Composer - follow steps from official website
+
+Install Laravel and add Laravel to path
+nano ~/.bashrc
+export "PATH=$HOME/.config/composer/vendor/bin:$PATH"
+ctrl+x to exit and press y then enter to save file
+echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc
+source ~/.bashrc
+
+
+Install VSCode
+    Apparently, multi cursor function from vscode alt+click had clashed with linux mint OS so in order to fix,
+    run this in terminal
+        gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier "<Super>"
+        
+        
+Scroll issue at Figma.com at Mozilla Firefox browser on Linux OS (any distros)
+	Install Mozilla Firefox add-ons https://addons.mozilla.org/en-US/firefox/addon/scroll-figma/
+
+Install Ngrok
+	i	Download from Official website
+	ii	Login using github
+	iii	Follow installation instruction
+	iv	Cut ngrok executable file
+	v	go to /usr/local/bin and open as root then paste cutted ngrok
+	vi	open terminal and check run ngrok -v to check ngrok can be run globally
+echo 'export PATH="$HOME/hakizuri/Server/Ngrok"' >> ~/.bashrc
+source ~/.bashrc
+	
+	
+KDE Neon
+
+Install Mysql
+
+sudo rm /etc/apt/preferences.d/50-neon-mariadb   
+sudo apt install mysql-server
