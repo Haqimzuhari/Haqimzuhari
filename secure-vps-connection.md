@@ -46,7 +46,7 @@ Switch current user to New User
 ```bash
 sudo su newuser
 ```
-Create `.ssh` folder and `authorized_keys` file and install SSH Public Key
+Create `.ssh` folder and `authorized_keys` file and paste SSH Public Key
 ```bash
 sudo nano ~/.ssh/authorized_keys
 
