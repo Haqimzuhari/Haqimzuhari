@@ -70,24 +70,36 @@ sudo nano /etc/apache2/mods-enabled/dir.conf
 ```
 #### Setup Virtual Host
 ```bash
-cd /var/www
-sudo mkdir example.com
-sudo chown -R $USER:$USER example.com
-sudo chmod -R 777 example.com
-cd /etc/apache2/site-available
-sudo cp 000-default.conf example.com.conf
-sudo nano example.com.conf
+sudo mkdir /var/www/example.com
+sudo chown -R $USER:$USER /var/www/example.com/example.com
+sudo chmod -R 777 /var/www/example.com/example.com
+sudo cp /etc/apache2/site-available/000-default.conf /etc/apache2/site-available/example.com.conf
+sudo nano /etc/apache2/site-available/example.com.conf
 
-Change <VirtualHost *:80> port if needed
-Add ServerName under ServerAdmin: ServerName example.com
-Add ServerAlias under ServerName: ServerAlias www.example.com
-DocumentRoot /var/www/example.com or /var/www/example.com/public for Laravel project
+<VirtualHost *:80>
+    ServerAdmin administrator@example.com
+    ServerName example.com
+    ServerAlias www.example.com
+    DocumentRoot /var/www/example.com
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
 ctrl+x then y then enter to exit
 
-sudo a2ensite domain.com.conf
+sudo a2ensite example.com.conf
 sudo a2dissite 000-default.conf
-sudo apache2ctl configtest
 sudo systemctl restart apache2
+sudo service apache2 restart
+```
+#### Setup Host File
+```bash
+sudo nano /etc/hosts
+
+#  Add {public-ip} {domain-name}
+111.111.111.111 example.com
+
+ctrl+x then y then enter to exit
 ```
 #### Enable .htaccess
 ```bash
@@ -110,8 +122,7 @@ sudo systemctl restart apache2
 ```
 #### Check PHP Info
 ```bash
-cd /var/www/example.com
-sudo nano phpinfo.php
+sudo nano /var/www/example.com/phpinfo.php
 ```
 ```php
 <?php phpinfo() ?>
@@ -119,4 +130,5 @@ sudo nano phpinfo.php
 ```bash
 ctrl+x then y then enter to exit
 ```
-Open browser and go to `http://example.com/phpinfo.php`
+Open browser and go to `http://example.com/phpinfo.php` or using your public ip `http://111.111.111.111/phpinfo.php`
+After setup DNS domain name point to public ip, now application can be access using domain name
