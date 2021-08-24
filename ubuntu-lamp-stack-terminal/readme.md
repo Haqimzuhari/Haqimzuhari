@@ -92,15 +92,6 @@ sudo a2dissite 000-default.conf
 sudo systemctl restart apache2
 sudo service apache2 restart
 ```
-#### Setup Host File
-```bash
-sudo nano /etc/hosts
-
-#  Add {public-ip} {domain-name}
-111.111.111.111 example.com
-
-ctrl+x then y then enter to exit
-```
 #### Enable .htaccess
 ```bash
 sudo a2enmod rewrite
