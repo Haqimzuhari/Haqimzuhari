@@ -72,7 +72,7 @@ exit
 ```
 ```bash
 # Login into mysql as new user
-mysql -u root -p
+mysql -u user -p
 <password>
 ```
 ```sql
