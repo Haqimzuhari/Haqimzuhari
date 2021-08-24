@@ -71,8 +71,8 @@ sudo nano /etc/apache2/mods-enabled/dir.conf
 #### Setup Virtual Host
 ```bash
 sudo mkdir /var/www/example.com
-sudo chown -R $USER:$USER /var/www/example.com/example.com
-sudo chmod -R 777 /var/www/example.com/example.com
+sudo chown -R $USER:$USER /var/www/example.com
+sudo chmod -R 777 /var/www/example.com
 sudo cp /etc/apache2/site-available/000-default.conf /etc/apache2/site-available/example.com.conf
 sudo nano /etc/apache2/site-available/example.com.conf
 
