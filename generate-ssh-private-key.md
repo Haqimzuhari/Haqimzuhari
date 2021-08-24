@@ -29,6 +29,9 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 This indicate a new pair of SSH key has been generated. You can find the SSH file in `/home/{user}/.ssh` directory
+> If permission denied while generating SSH key
+> run `sudo chown {user} .ssh`
+> Try regenerate again
 ### Copy SSH key
 
 SSH key will be generate 2 files in `/home/{user}/.ssh`
