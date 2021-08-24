@@ -82,7 +82,7 @@ exit
 ```
 ## Cloning project from Github
 ### Setup SSH between VPS and Github for security
- As this MD file is written at 2021, Github has update their policy where user are unable to close, push or pull only by using Username and Password. Need to use SSH or probably Access Token.
+ As this MD file is written at 2021, Github has update their policy where user are unable to clone, push or pull only by using Username and Password. Need to use SSH or probably Access Token.
  
 ### Generate SSH from VPS Server
 ```bash
