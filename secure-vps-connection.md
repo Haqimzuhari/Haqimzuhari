@@ -48,6 +48,7 @@ sudo su newuser
 ```
 Create `.ssh` folder and `authorized_keys` file and paste SSH Public Key
 ```bash
+sudo mkdir .ssh
 sudo nano ~/.ssh/authorized_keys
 
 ctrl-x then y then Enter to save and exit
