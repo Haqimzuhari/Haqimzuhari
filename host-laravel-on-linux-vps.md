@@ -164,7 +164,7 @@ sudo nano /etc/apache2/sites-available/example.com.conf
 ```
 Add this anywhere inside `<VirtualHost></VirtualHost>`
 ```bash
-<Directory /var/www/html>
+<Directory /var/www/example.com/public>
 	Options Indexes FollowSymLinks MultiViews
 	AllowOverride All
 	Require all granted
