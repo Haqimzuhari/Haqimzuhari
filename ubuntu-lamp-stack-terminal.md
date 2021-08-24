@@ -81,6 +81,7 @@ sudo nano /etc/apache2/site-available/example.com.conf
     ServerName example.com
     ServerAlias www.example.com
     DocumentRoot /var/www/example.com
+	#DocumentRoot /var/www/example.com/public for Laravel project
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
@@ -124,3 +125,5 @@ ctrl+x then y then enter to exit
 Open browser and go to `http://example.com/phpinfo.php` or using your public ip `http://111.111.111.111/phpinfo.php`
 After setup DNS domain name point to public ip, now application can be access using domain name
 ##### Don't forget to remove `phpinfo.php` once finish view on browser
+
+#### How to hosting Laravel project on VPS Linux Server? Click [here](https://github.com/Haqimzuhari/Haqimzuhari/blob/master/host-laravel-on-linux-vps.md)
