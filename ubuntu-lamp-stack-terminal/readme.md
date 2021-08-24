@@ -132,3 +132,4 @@ ctrl+x then y then enter to exit
 ```
 Open browser and go to `http://example.com/phpinfo.php` or using your public ip `http://111.111.111.111/phpinfo.php`
 After setup DNS domain name point to public ip, now application can be access using domain name
+##### Don't forget to remove `phpinfo.php` once finish view on browser
