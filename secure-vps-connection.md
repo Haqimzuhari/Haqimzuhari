@@ -39,9 +39,6 @@ Is the information correct?: `Y`
 ```
 ### Grant New User as Sudoer
 ```bash
-adduser newuser
-
-# Set Password
 usermod -aG admin newuser
 ```
 ### Create `authorized_keys` file for New User
