@@ -5,7 +5,7 @@
 # Please change the link using latest version available.
 # Current list is just for reference
 wget https://www.openssl.org/source/openssl-1.1.1h.tar.gz
-tar -zxfv openssl-1.1.1h.tar.gz
+tar -zxf openssl-1.1.1h.tar.gz
 cd openssl-1.1.1h
 ./config
 
