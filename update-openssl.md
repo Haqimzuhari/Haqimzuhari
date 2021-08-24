@@ -3,7 +3,7 @@
 ```bash
 # Get latest OpenSSL
 # Please change the link using latest version available.
-# Current list is just for reference
+# Current link is just for reference
 wget https://www.openssl.org/source/openssl-1.1.1h.tar.gz
 tar -zxf openssl-1.1.1h.tar.gz
 cd openssl-1.1.1h
@@ -14,9 +14,6 @@ sudo apt-get install make gcc
 
 # Backup
 sudo mv /usr/bin/openssl ~/tmp
-
-# Test
-make test
 
 # Install
 sudo make install
