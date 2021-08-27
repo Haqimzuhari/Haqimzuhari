@@ -53,6 +53,16 @@ nano ~/.ssh/authorized_keys
 
 ctrl-x then y then Enter to save and exit
 ```
+
+If `Permission Denied` while creating `.ssh` folder
+```bash
+sudo mkdir .ssh
+sudo chown newuser .ssh
+nano ~/.ssh/authorized_keys
+
+ctrl-x then y then Enter to save and exit
+```
+
 ### Disable default connection method and disable connect using `root` 
 Log into server as New User by using SSH Private Key
 ```bash

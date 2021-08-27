@@ -81,6 +81,10 @@ sudo nano /etc/apache2/mods-enabled/dir.conf
 	DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 </IfModule>
 ```
+#### Change owner of www folder
+```bash
+sudo chown newuser /var/www
+```
 #### Check PHP Info
 ```bash
 sudo nano /var/www/html/phpinfo.php
