@@ -149,7 +149,7 @@ sudo service apache2 restart
 sudo a2enmod rewrite
 sudo nano /etc/apache2/sites-available/example.com.conf
 ```
-Add this anywhere inside `<VirtualHost></VirtualHost>`
+Add on the first row inside `<VirtualHost></VirtualHost>`
 ```bash
 <Directory /var/www/example.com/public>
 	Options Indexes FollowSymLinks MultiViews
