@@ -1,6 +1,6 @@
 # Linux Ubuntu ODBC Driver 17 for SQL Server OpenSSL Issue
 ### ODBC Driver 17 for SQL Server SSL Provider unsupported protocol issue
-1. Backup original /etc/ssl/openssl.cnf
+1. Backup original `/etc/ssl/openssl.cnf`
 ```bash
 # Get latest OpenSSL
 # Please change the link using latest version available.
