@@ -109,7 +109,7 @@ php artisan migrate --seed
 ```
 #### Restore existing database
 * In case the project's migrate didn't been setup, and want to restore database instead. 
-* Make sure the database name has been created and the .sql file has been existed in the server.
+* Make sure the **database name** has been created and the **.sql file** has been existed in the server.
 ```bash
 mysql -u user-name -p database-name < sql-file-with-path.sql
 ```
