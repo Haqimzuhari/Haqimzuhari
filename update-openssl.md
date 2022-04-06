@@ -25,7 +25,7 @@
 ```bash
   sudo systemctl restart apache2
 ```
-### Get link of latest version available for OpenSSL from [OpenSSL Official Github release](https://github.com/openssl/openssl/releases)
+### (Optional: Update to the latest OpenSSL: Not usually working also but can try) Get link of latest version available for OpenSSL from [OpenSSL Official Github release](https://github.com/openssl/openssl/releases)
 ```bash
 # Get latest OpenSSL
 # Please change the link using latest version available.
