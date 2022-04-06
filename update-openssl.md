@@ -8,7 +8,7 @@
 3. On first row:
 ```bash
   openssl_conf = default_conf
-``
+```
 4. On last row:
 ```bash
   [default_conf]
