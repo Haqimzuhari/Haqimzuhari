@@ -1,5 +1,5 @@
 ## 🚀 About Me
-I'm a software engineer on  9-5 and Full Stack Web Developer on some other time ...
+I'm a software engineer on 9-5 and full stack web developer on some other time ...
 
 ## 🛠 Skills
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
