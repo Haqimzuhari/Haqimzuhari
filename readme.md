@@ -1,8 +1,5 @@
-#### Haqim Zuhari
 ## 🚀 About Me
 I'm a software engineer on  9-5 and Full Stack Web Developer on some other time ...
-Above are some of my guideline. Sorry, I will improve and make it more interactive and user friendly when try to access to these guide
-As of now, let's stick with this way 😊
 
 ## 🛠 Skills
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
