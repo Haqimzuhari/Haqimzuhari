@@ -27,3 +27,4 @@ I'm software engineer
 1. How to setup Laravel project on Linux VPS server - [![Read](https://img.shields.io/badge/Open-Link-blue?style=flat-square)](https://github.com/Haqimzuhari/Haqimzuhari/blob/master/host-laravel-on-linux-vps.md)
 2. How to secure your VPS connection - [![Read](https://img.shields.io/badge/Open-Link-blue?style=flat-square)](https://github.com/Haqimzuhari/Haqimzuhari/blob/master/secure-vps-connection.md)
 3. Fix Linux Mint ODBC - OpenSSL issue - [![Read](https://img.shields.io/badge/Open-Link-blue?style=flat-square)](https://github.com/Haqimzuhari/Haqimzuhari/blob/master/update-openssl.md)
+4. Docker environment for PHP Nginx Mysql - Suitable for Laravel project - [![Read](https://img.shields.io/badge/Open-Link-blue?style=flat-square)](https://github.com/Haqimzuhari/docker-pnxm)
