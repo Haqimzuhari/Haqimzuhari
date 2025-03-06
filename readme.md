@@ -17,7 +17,7 @@ I'm software engineer
 ![WSL](https://img.shields.io/badge/WSL-0A97F5?style=for-the-badge&logo=windows-terminal&logoColor=white)
 
 ## 🔗 Links
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Haqimzuhari)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://my.linkedin.com/in/haqimzuhari)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/haqimzuhari)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mhaqimzuhari@gmail.com)
 
