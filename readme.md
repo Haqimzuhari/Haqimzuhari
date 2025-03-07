@@ -1,5 +1,5 @@
 ### 👩‍🚀 About Me
-I am a Software Engineer & Full-Stack Developer 🚀
+I am a Software Engineer & Full-Stack Developer 🚀   
 I have a ton of repositories—trust me, most of them are private. 😎🔒  
 
 ---
@@ -45,7 +45,7 @@ I have a ton of repositories—trust me, most of them are private. 😎🔒
 
 ---
 
-## 📚 Current Learning
+### 📚 Current Learning
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![DevOps](https://img.shields.io/badge/DevOps-FF6F00?style=flat&logo=devops&logoColor=white)
@@ -53,14 +53,14 @@ I have a ton of repositories—trust me, most of them are private. 😎🔒
 
 ---
 
-## 🔗 Connect with Me
+### 🔗 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://my.linkedin.com/in/haqimzuhari)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/haqimzuhari)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mhaqimzuhari@gmail.com)
 
 ---
 
-## 👨🏼‍💻 Guidelines
+### 👨🏼‍💻 Guidelines
 
 1. How to setup Laravel project on Linux VPS server - [![Read](https://img.shields.io/badge/Open-Link-blue)](https://github.com/Haqimzuhari/Haqimzuhari/blob/master/host-laravel-on-linux-vps.md)
 2. How to secure your VPS connection - [![Read](https://img.shields.io/badge/Open-Link-blue)](https://github.com/Haqimzuhari/Haqimzuhari/blob/master/secure-vps-connection.md)
