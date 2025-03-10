@@ -10,26 +10,31 @@ This guide will help you set up a Laravel development environment using Docker, 
   - 📄 [WSL-Docker Setup](./wsl-docker-stack.md)
   - 📄 [Docker-PNXM Guide](https://github.com/Haqimzuhari/docker-pnxm)
 
+---   
+
 ## ⚙️ Setting Up the Environment
 
-### 1️⃣ Remote WSL Setup
-🖥️ Open **VS Code** and install the **Remote - WSL** extension.
-🔹 Open a **WSL terminal** and navigate to your project directory.
+### Cutomize `docker-compose-yaml`
+Open **VS Code** and install the **Remote - WSL** extension.
+🔹 By following guideline from [Docker-PNXM Guide](https://github.com/Haqimzuhari/docker-pnxm), configure the `appname`, `port` if require and make sure the app are independent and not conflicted with another app
 
-### 2️⃣ Configure `docker-compose` ⚡
-📂 Clone your project repository or create a new one.
-📝 Add a `docker-compose.yml` file to configure Laravel, MySQL, and other services.
-
-### 3️⃣ Start Docker Services 🏗️
+### Build and bring up Docker environment
 ```sh
-docker-compose up -d
+docker-compose up --build -d
 ```
 ✅ Your Docker services should now be running!
+✅ You also can check all your container are all up and running from `Docker-desktop`   
 
-### 4️⃣ Connect to the App Container 🛠️
-🔹 Open VS Code Command Palette (`Ctrl + Shift + P`)
+---   
+
+## ⚙️ Deploy Application
+
+### Open `app` container from `VS Code` extension `Remote - Container`
 🔹 Select **Remote-Containers: Attach to Running Container**
 🔹 Choose the **app** container
+🔹 Check the `git`, `php`, `composer`, `nodejs` and `npm` are all installed
+🔹 You can choose to `clone` existing project or `create` new project
+🔹 All project shall created inside `/var/www`
 
 ### 5️⃣ Create a Laravel Project 🏗️
 Inside the container terminal:
