@@ -1,6 +1,5 @@
 ### 👩‍🚀 About Me
-I am a Software Engineer & Full-Stack Developer 🚀   
-I have a ton of repositories—trust me, most of them are private. 😎🔒  
+I am a Software Engineer & Full-Stack Developer 🚀    
 
 ---
 
