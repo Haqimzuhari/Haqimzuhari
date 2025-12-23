@@ -87,18 +87,21 @@ FROM node:24-alpine
 
 WORKDIR /app
 
-# Copy package files
-COPY package*.json ./
+# Copy entire project
+COPY . .
+
+# Update NPM (requires root)
+RUN npm install -g npm@latest
 
 # Install dependencies
 RUN npm install
 
-# Copy source code
-COPY . .
+# Change owneship of node_modules
+RUN chown -R 1000:1000 node_modules
 
-EXPOSE 3000
+EXPOSE 5173
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev"]
 ```
 
 ### 3️⃣ docker-compose.yml (Production)
@@ -124,11 +127,12 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     container_name: react_dev
+    user: "1000:1000"
     ports:
-      - "3000:3000"
+      - "5173:5173"
     volumes:
-      - ./src:/app/src
-      - ./public:/app/public
+      - .:/app
+      - /app/node_modules
     environment:
       - REACT_APP_API_URL=http://localhost:8080/api
       - CHOKIDAR_USEPOLLING=true
@@ -206,14 +210,17 @@ FROM node:24-alpine
 
 WORKDIR /app
 
-# Copy package files
-COPY package*.json ./
+# Copy entire project
+COPY . .
 
-# Install all dependencies (including dev)
+# Update NPM
+RUN npm install -g npm@latest
+
+# Install dependencies
 RUN npm install
 
-# Copy source code
-COPY . .
+# Change owneship of node_modules
+RUN chown -R 1000:1000 node_modules
 
 EXPOSE 3000
 
@@ -250,11 +257,12 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     container_name: express_dev
+    user: "1000:1000"
     ports:
       - "3000:3000"
     volumes:
-      - ./src:/app/src
-      - ./package.json:/app/package.json
+      - .:/app
+      - /app/node_modules
     environment:
       - NODE_ENV=development
       - PORT=3000
