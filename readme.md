@@ -1,5 +1,5 @@
-### 👩‍🚀 About Me
-I am a Software Engineer & Full-Stack Developer 🚀    
+### About Me
+I am a Software Engineer & Full-Stack Developer 🚀   
 
 ---
 
@@ -21,44 +21,41 @@ I am a Software Engineer & Full-Stack Developer 🚀
 
 #### Databases
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=flat)
+![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Relational](https://img.shields.io/badge/Relational-007ACC?style=flat)
+![Relational](https://img.shields.io/badge/Relational-007ACC?style=flat&logo=data:image/png;base64&logoColor=white)
 ![NoSQL](https://img.shields.io/badge/NoSQL-00C7B7?style=flat&logo=mongodb&logoColor=white)
-![IndexedDB](https://img.shields.io/badge/IndexedDB-FFA000?style=flat)
+![IndexedDB](https://img.shields.io/badge/IndexedDB-FFA000?style=flat&logo=indexeddb&logoColor=white)
 
 #### Operating Systems
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Unix](https://img.shields.io/badge/Unix-4EAA25?style=flat&logo=gnu&logoColor=white)
 
 #### DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![WSL](https://img.shields.io/badge/WSL-4D4D4D?style=flat)
+![WSL](https://img.shields.io/badge/WSL-4D4D4D?style=flat&logo=windows-terminal&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitFlow](https://img.shields.io/badge/GitFlow-29BEB0?style=flat&logo=git&logoColor=white)
 
 #### Software Architecture
-![MVC](https://img.shields.io/badge/MVC-008080?style=flat)
-![OOP](https://img.shields.io/badge/OOP-0078D7?style=flat)   
+![MVC](https://img.shields.io/badge/MVC-008080?style=flat&logo=mvc&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-0078D7?style=flat&logo=data:image/png;base64&logoColor=white)   
 
 ---
 
 ### 📚 Current Learning
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![DevOps](https://img.shields.io/badge/DevOps-FF6F00?style=flat)
-![Pipeline](https://img.shields.io/badge/Pipeline-4B8BBE?style=flat)   
+![DevOps](https://img.shields.io/badge/DevOps-FF6F00?style=flat&logo=devops&logoColor=white)
+![AI](https://img.shields.io/badge/AI-FF4081?style=flat&logo=ai&logoColor=white)   
 
 ---
 
 ### 🔗 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat)](https://my.linkedin.com/in/haqimzuhari)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat)](https://github.com/haqimzuhari)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat)](mailto:mhaqimzuhari@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://my.linkedin.com/in/haqimzuhari)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/haqimzuhari)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mhaqimzuhari@gmail.com)
 
 ---
 

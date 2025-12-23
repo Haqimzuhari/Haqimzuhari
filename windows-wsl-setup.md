@@ -1,4 +1,4 @@
-# 🚀 WSL Docker Stack Setup Guide
+# 🚀 Windows WSL
 
 ## 📌 Overview
 This guide provides a step-by-step approach to setting up **Docker Desktop** and **Windows Subsystem for Linux (WSL)** on Windows. It also includes instructions for creating a WSL instance (Ubuntu 20.04) and connecting to it using **VS Code**.
