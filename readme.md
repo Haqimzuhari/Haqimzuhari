@@ -4,7 +4,9 @@
 - Experienced software engineer in the financial and banking domain, supporting enterprise-level systems such as statementing, reporting, backoffice, and board paper systems.
 - Fullstack developer who has built landing pages, web systems, booking platforms, queue management, admin panels, dashboards, and reporting tools.
 - Skilled in third-party integrations including payment gateways, email, and SMS services. Background in machine learning and AI.
+- Solid experience across the full SDLC and production incident management.
 - Currently focused on modern technologies, DevOps practices, and cloud infrastructure.
+- Give me the requirements, I'll handle the rest.
 
 ## Language
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=flat&logo=gnu-bash&logoColor=white)
