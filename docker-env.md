@@ -50,13 +50,13 @@ USER node
 ```dockerfile
 FROM python:3.13-slim
 
-RUN useradd -u 1000 -m appuser
+RUN useradd -u 1000 -m python
 
 RUN pip install flask flask-cors
 
 WORKDIR /app
 
-USER appuser
+USER python
 ```
 
 ### PHP
